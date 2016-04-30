@@ -1,1 +1,43 @@
-/* add your CSS here */
+body {
+	font-family: 'Roboto', sans-serif;
+	width: 430px;
+	text-align: left;
+	font-size: 16px;
+}
+
+h3 {
+	font-size: 32px;
+	font-weight: bold;
+	margin: 0px;
+}
+
+img {
+	width: 100%;
+	margin: 5px 0px 5px 0px;
+}
+
+div {
+	border: solid 1px;
+	border-color: #888888;
+	padding: 15px;
+	width: (100% - 30px);
+}
+
+#outline {
+	box-shadow: -0px 5px 5px #888888;
+}
+
+li {
+	list-style-type: none;
+	text-align: left;
+	font-style: italic;
+	margin-left: -39px;
+}
+
+li > span{
+	font-weight: bold;
+	font-style: normal;
+}
+p:first-of-type{
+	font-style: italic;
+}
